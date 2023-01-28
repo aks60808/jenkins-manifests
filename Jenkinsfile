@@ -1,4 +1,5 @@
 node {
+	agent any
 	stage('Build') {
 		echo "Build"
 	}
